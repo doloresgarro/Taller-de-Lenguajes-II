@@ -15,6 +15,9 @@ public class TestIMC {
         // Intancio IMC
         IMC i = new IMC(peso, altura); 
         float res = i.calculo();
+        float res2 = i.calculo(60, 30);
+        System.out.println(res);
+        System.out.println(res2);
 
         if ((res > 18.0) && (res > 25.0)) {
             System.out.println("Usted se encuentra saludable, el resultado es: " + res);
@@ -29,4 +32,16 @@ public class TestIMC {
     }
 
 
+    /* 
+    
+    g) ¿Es posible escribir un método llamado “calculo” que realiza lo mismo que el punto c
+    pero recibiendo 2 argumentos de tipo long?
+        Si, y 
+    
+    h) Cómo se llama el mecanismo que permite a una clase tener dos métodos con el
+          mismo nombre pero que difieren en su firma? 
+          Sobrecarga de constructores 
+
+        
+    */
 }

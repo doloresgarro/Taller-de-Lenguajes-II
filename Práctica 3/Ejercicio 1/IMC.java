@@ -28,4 +28,8 @@ public class IMC {
         return (peso / (altura * altura));
     }
 
+     public float calculo(long peso, long altura) {
+        return (peso / (altura * altura));
+    }
+
 }
