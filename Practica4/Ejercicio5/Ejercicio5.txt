@@ -1,0 +1,21 @@
+Responda verdadero o falso según corresponda. JUSTIFIQUE.
+
+------------------------------------------------------------------------
+a. Una clase abstracta debe tener al menos un método abstracto. JUSTIFIQUE.
+Falso. Puede tener métodos concretos y no abstractos. 
+Por ejemplo en el caso de una figura geométrica puede tener un getColor() o setColor().
+
+
+------------------------------------------------------------------------
+b. No pueden definirse constructores en una clase abstracta. JUSTIFIQUE.
+Verdadero. Los constructores sirven para instanciar clases y una clase abstracta no puede serlo. 
+
+
+------------------------------------------------------------------------
+c. Los métodos abstractos no pueden ser declarados en una clase no abstracta (concreta). JUSTIFIQUE
+Verdadero. Pueden ser declarados únicamente en la clase abstracta. Su implementación se realizará en cada una de las clases hijas, lo cual ya los definiría como métodos concretos. 
+
+
+------------------------------------------------------------------------
+d. Si una clase B extiende una clase abstracta A debe implementar TODOS los métodos de la clase abstracta A. JUSTIFIQUE
+Falso. Los métodos concretos de la clase abstracta no necesariamente deben ser implementados en la clase B. 
