@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestRandom",
+            "request": "launch",
+            "mainClass": "Práctica5A.TestRandom",
+            "projectName": "Taller de Lenguajes 2 - visual_81267fda"
+        },
+        {
+            "type": "java",
+            "name": "TestRandom",
+            "request": "launch",
+            "mainClass": "Práctica5A.griego.TestRandom",
+            "projectName": "Taller de Lenguajes 2 - visual_81267fda"
+        },
+        {
+            "type": "java",
             "name": "TestCharly",
             "request": "launch",
             "mainClass": "Practica4.Ejercicio2.TestCharly",

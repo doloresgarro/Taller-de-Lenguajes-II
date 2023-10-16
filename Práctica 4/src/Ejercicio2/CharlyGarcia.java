@@ -23,6 +23,8 @@ d. Realice el Diagrama UML de su solución.
 
  */
 
+package Ejercicio2;
+
 public class CharlyGarcia {
 
     // variable privada de clase
