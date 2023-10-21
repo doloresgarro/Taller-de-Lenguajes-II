@@ -84,7 +84,9 @@ public class NumeroComplejo {
 		return "NumeroComplejo (re=" + re + ", im=" + im + ")";
 	}
 
-	public NumeroComplejo valueOf(double re, double im) {
+	
+	//static porque es método de clase
+	public static NumeroComplejo valueOf(double re, double im) {
 		NumeroComplejo num = new NumeroComplejo(re, im);
 		return num;
 	}
