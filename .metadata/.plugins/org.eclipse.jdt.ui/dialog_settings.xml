@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="1"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
+	<item key="org.eclipse.jdt.ui.last.selected.project.jre" value="jre-1.8"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -29,9 +30,16 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\Dolores\OneDrive\Documentos\Facultad\Taller de Lenguajes II\Taller de Lenguajes 2 - visual"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="2"/>
-		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="TestNumeroComplejo - Práctica5B"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="Práctica5B\src\prueba1.jar"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="TestSistemaSolar - EjerciciosParcial"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\Dolores\OneDrive\Documentos\Facultad\Taller de Lenguajes II\Taller de Lenguajes 2 - visual\EjerciciosParcial\src\Ejercicio1.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Dolores\OneDrive\Documentos\Facultad\Taller de Lenguajes II\Taller de Lenguajes 2 - visual\EjerciciosParcial\src\Ejercicio1.jar"/>
+			<item value="C:\Users\Dolores\OneDrive\Documentos\Facultad\Taller de Lenguajes II\Ejercicio12.jar"/>
+			<item value="EjerciciosParcial\src\Ejercicio12.jar"/>
+			<item value="EjerciciosParcial/src/Ejercicio12.jar"/>
+			<item value="EjerciciosParcial\src\Ejercicio1.jar"/>
+			<item value="EjerciciosParcial/src/Ejercicio1.jar"/>
+			<item value="EjerciciosParcial/src/Ejercicio1/Ejercicio1.jar"/>
 			<item value="Práctica5B\src\prueba1.jar"/>
 			<item value="Práctica5B/src/prueba.jar"/>
 			<item value="Práctica 4\src\Ejercicio2\prueba.jar"/>
@@ -62,6 +70,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="EjerciciosParcial/src/Ejercicio1.jar"/>
 			<item value="Práctica5B\src\Ejercicio31.jar"/>
 			<item value="Práctica5B/src/Ejercicio3.jar"/>
 			<item value="Práctica5A/src/Ejercicio2.jar"/>
@@ -84,10 +93,11 @@
 		<item key="InstanceOf" value="false"/>
 		<item key="Blocks" value="false"/>
 		<item key="Objects.equals &amp; Objects.hash" value="true"/>
+		<item key="VisibilityModifier" value="1"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_X_ORIGIN" value="63"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="11"/>
 		<item key="DIALOG_WIDTH" value="846"/>
 		<item key="DIALOG_HEIGHT" value="1008"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -101,5 +111,28 @@
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="2"/>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item key="SortOrdering" value="false"/>
+		<item key="RemoveFinal" value="false"/>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="66"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="846"/>
+		<item key="DIALOG_HEIGHT" value="1008"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="671"/>
+			<item key="DIALOG_Y_ORIGIN" value="182"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
 	</section>
 </section>
