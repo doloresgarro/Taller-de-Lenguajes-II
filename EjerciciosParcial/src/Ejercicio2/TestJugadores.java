@@ -67,6 +67,36 @@ public class TestJugadores {
 		System.out.println(Arg2.toString());
 		System.out.println();
 		
+		
+		boolean arq = false;
+		boolean del = false;
+		boolean medio = false;
+		boolean def = false;
+		
+		for (Jugador jug : Arg2.getJugadores()) {
+			if((arq == false) && ((jug.getPos1() == Posicion.ARQUERO ) || (jug.getPos2() == Posicion.ARQUERO)) )
+				arq=true; 
+			else {
+				if ((del == false )&&(( jug.getPos1() == Posicion.DELANTERO ) || (jug.getPos2() == Posicion.DELANTERO)))
+					del=true;
+				else {
+					if ((def == false) && (( jug.getPos1() == Posicion.DEFENSA ) || (jug.getPos2() == Posicion.DEFENSA)))
+						def = true;
+					else {
+						if ((medio == false) &&(( jug.getPos1() == Posicion.MEDIOCAMPO ) || (jug.getPos2() == Posicion.MEDIOCAMPO)) )
+							medio = true;
+					}
+				}
+			}
+		}
+		if ( arq && del && medio && def )
+			System.out.println("Argentina cumple las condiciones");
+		else 
+			System.out.println("Argentina NO cumple las condiciones");
+		
+
+		
+		
 		//-------------------------------------------------------------------------------
 		/* ambos equipos con 
 		 - 1 arquero
@@ -127,32 +157,6 @@ public class TestJugadores {
 			System.out.println("El equipo NO cumple las condiciones");
 		*/
 		
-	boolean arq = false;
-	boolean del = false;
-	boolean medio = false;
-	boolean def = false;
-	
-	for (Jugador jug : Arg2.getJugadores()) {
-		if((arq == false) && ((jug.getPos1() == Posicion.ARQUERO ) || (jug.getPos2() == Posicion.ARQUERO)) )
-			arq=true; 
-		else {
-			if ((del == false )&&(( jug.getPos1() == Posicion.DELANTERO ) || (jug.getPos2() == Posicion.DELANTERO)))
-				del=true;
-			else {
-				if ((def == false) && (( jug.getPos1() == Posicion.DEFENSA ) || (jug.getPos2() == Posicion.DEFENSA)))
-					def = true;
-				else {
-					if ((medio == false) &&(( jug.getPos1() == Posicion.MEDIOCAMPO ) || (jug.getPos2() == Posicion.MEDIOCAMPO)) )
-						medio = true;
-				}
-			}
-		}
-	}
-	if ( arq && del && medio && def )
-		System.out.println("Argentina cumple las condiciones");
-	else 
-		System.out.println("Argentina NO cumple las condiciones");
-	
 
 		
 		/*
