@@ -2,7 +2,7 @@ package Ejercicio3;
 
 public class Luthier {
 	
-	public void afinar(InstrumentoMusical i) {
+	public static void afinar(InstrumentoMusical i) {
 		switch (i.afinacion) {
 		case DO:
 			i.afinar(TipoAfinacion.DO);

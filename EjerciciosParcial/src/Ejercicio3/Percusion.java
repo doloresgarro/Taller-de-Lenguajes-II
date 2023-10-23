@@ -2,18 +2,18 @@ package Ejercicio3;
 
 public class Percusion extends InstrumentoMusical{
 	
-	public Percusion (TipoAfinacion afinacion) {
-		if (afinacion == TipoAfinacion.RE) 
-			this.afinacion = afinacion;
+	public Percusion() {
+		
 	}
 	
-	public void afinar(TipoAfinacion afinacion) {
-		if (afinacion == TipoAfinacion.RE) {
-			System.out.println("Afinando instrumento de percusion (" + TipoAfinacion.RE + ")");
-			this.afinacion = afinacion;
-		}
-		else 
-			System.out.println("Ingrese el tipo de afinacion correcto(RE)");
+	public Percusion (String nombre, TipoAfinacion afinacion) {
+		super(nombre, afinacion);
+	}
+
+
+	public void afinar (TipoAfinacion afinacion) {
+		super.setAfinacion(afinacion);
+		System.out.println("Afinando instrumento de viento (" + TipoAfinacion.RE + ")");
 	}
 	
 

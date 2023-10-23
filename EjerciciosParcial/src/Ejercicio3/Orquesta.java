@@ -1,35 +1,37 @@
 package Ejercicio3;
-import java.util.ArrayList;
+
+import java.util.Arrays;
 
 public class Orquesta {
-	private ArrayList<InstrumentoMusical> instrumentos = new ArrayList<>();
-	//private int cuerdas = 2;
-	//private int viento = 3;
-	//private int percusion = 2;
+	private InstrumentoMusical[] orquesta = new InstrumentoMusical[7];
 	
 	public Orquesta() {
+		super();
+		orquesta[0] = new Viento("flauta", TipoAfinacion.SI);
+		orquesta[1] = new Viento("trompeta", TipoAfinacion.LA);
+		orquesta[2] = new Viento("clarinete", TipoAfinacion.SI);
+		
+		orquesta[3] = new Cuerdas("guitarra", TipoAfinacion.DO);
+		orquesta[4] = new Cuerdas("bajo", TipoAfinacion.DO);
+	
+		orquesta[5] = new Percusion("tambor", TipoAfinacion.RE);
+		orquesta[6] = new Percusion("bateria", TipoAfinacion.RE);
+		
 		
 	}
 
-	public ArrayList<InstrumentoMusical> getInstrumentos() {
-		return instrumentos;
+	public InstrumentoMusical[] getOrquesta() {
+		return orquesta;
 	}
 
-	public void setInstrumentos(ArrayList<InstrumentoMusical> instrumentos) {
-		this.instrumentos = instrumentos;
-	}
-	
-	public void AgregarInstrumento(InstrumentoMusical i) {
-		instrumentos.add(i);
+	public void setOrquesta(InstrumentoMusical[] o) {
+		this.orquesta = o;
 	}
 
 	@Override
 	public String toString() {
-		return "Orquesta [instrumentos=" + instrumentos + "]";
+		return "Orquesta [orquesta=" + Arrays.toString(orquesta) + "]";
 	}
-	
-	
-	
 	
 	
 
