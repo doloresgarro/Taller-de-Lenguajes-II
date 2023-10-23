@@ -1,4 +1,4 @@
-package Ejercicio5;
+package Ejercicio5Op1;
 
 public class Textbook {
     private String title;
