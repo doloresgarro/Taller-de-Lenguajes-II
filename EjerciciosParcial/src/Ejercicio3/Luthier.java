@@ -9,7 +9,7 @@ public class Luthier {
 			break;
 		case LA:
 			i.afinar(TipoAfinacion.LA);
-			break;
+			break; 
 		case RE:
 			i.afinar(TipoAfinacion.RE);
 			break; 

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Parcial.Eleccion"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="Ejercicio2.PerroPeligroso"/>
+    <fullyQualifiedTypeName name="domestico.PerroDomestico"/>
+    <fullyQualifiedTypeName name="animalesPeligrosos.AnimalPeligroso"/>
 </qualifiedTypeNameHistroy>
