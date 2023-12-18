@@ -8,7 +8,7 @@ public class Twister implements Swirl{
 
 	@Override
 	public int damage(Monster monster) {
-		return RandomGenerator.getInstance().calculateDamage(0, 200);
+		return RandomGenerator.getInstance().calculateDamage(100, 200);
 	}
 
 }

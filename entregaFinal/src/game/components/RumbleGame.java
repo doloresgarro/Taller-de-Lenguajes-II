@@ -1,7 +1,7 @@
 package game.components;
 
-//PATRÓN SINGLETON --> Restringe la instancia de una clase y asegura que solamente
-//una instancia de la clase existe en la máquina virtual JAVA
+/* PATRÓN SINGLETON --> Restringe la instancia de una clase y asegura que solamente
+una instancia de la clase existe en la máquina virtual JAVA */
 
 import game.random.RandomGenerator;
 

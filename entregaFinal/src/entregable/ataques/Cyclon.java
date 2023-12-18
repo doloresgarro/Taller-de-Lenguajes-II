@@ -10,9 +10,9 @@ public class Cyclon implements Swirl {
 	public int damage(Monster monster) {
 		// TODO Auto-generated method stub
 	        if(monster.getTypes().contains(Type.FIRE)) 
-	        	return (monster.getLife() / 7); // si el enemigo es de tipo fuego el daño es mayor 	        
+	        	return (monster.getLife() / 3); // si el enemigo es de tipo fuego el daño es mayor 	        
 	        else 
-	        	return (monster.getLife() % 7); 
+	        	return (monster.getLife() - 20); 
 	}
 
 }

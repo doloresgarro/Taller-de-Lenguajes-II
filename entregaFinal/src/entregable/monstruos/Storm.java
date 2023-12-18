@@ -33,28 +33,13 @@ public class Storm extends Monster {
     public void move(PathBox oldPathBox, PathBox newPathBox) {
         super.move(oldPathBox, newPathBox);
         
-        /*
         if (this.activeSkill == skills.get(1)) {// si es un tornado
-            this.activeSkill = skills.get(1);
-            this.life += 10; // va ganando viento a medida que avanza
-            System.out.println("TORNADO GANA VIDAAAAAAAAAAAA");
-    	} else {
-            this.activeSkill = skills.get(0); // si es un ciclón
-            this.life -= 10; // va perdiendo agua a medida que avanza 
-            System.out.println("CICLON PIERDE VIDAAAAAAAAAAAAA");
-    		
-    	}*/
-        	
-        if(activeSkill instanceof Twister) {
-            this.activeSkill = skills.get(1);
-            this.life += 10; // va ganando viento a medida que avanza
-            System.out.println("TORNADO GANA VIDAAAAAAAAAAAA");
-        } else {
             this.activeSkill = skills.get(0);
+            this.life += 10; // va ganando viento a medida que avanza
+    	} else {
+            this.activeSkill = skills.get(1);
             this.life -= 10; // va perdiendo agua a medida que avanza 
-
-            System.out.println("CICLON PIERDE VIDAAAAAAAAAAAAA");
-        }
+    	}
     }
     
     // Sobreescribimos el método onDamageReceive
